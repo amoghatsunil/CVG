@@ -9,7 +9,9 @@ import numpy as np
 
 img=cv2.imread("einstein.png",0)
 
-patch=[[1,0,-1],[2,0,-2],[1,0,-1]]
+patch=[[1,0,-1],
+       [2,0,-2],
+       [1,0,-1]]
 patch=np.array(patch)
 
 patch_size=[3,3]
