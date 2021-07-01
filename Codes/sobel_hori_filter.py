@@ -2,7 +2,7 @@
 """
 Created on Wed Aug 12 15:19:36 2020
 
-@author: hp
+@author: amogha
 """
 
 import cv2
@@ -10,7 +10,9 @@ import numpy as np
 
 img=cv2.imread("einstein.png",0)
 
-patch=[[1,2,1],[0,0,0],[-1,-2,-1]]
+patch=[[ 1, 2, 1],
+       [ 0, 0, 0],
+       [-1,-2,-1]]
 patch=np.array(patch)
 
 patch_size=[3,3]
